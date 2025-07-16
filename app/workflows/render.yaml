@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: login-system
+    runtime: python
+    buildCommand: |
+      pip install poetry
+      poetry install
+    startCommand: poetry run python run.py
+    env: python
+    region: oregon
+    plan: free
+
