@@ -7,6 +7,6 @@ services:
       poetry install
     startCommand: poetry run python run.py
     env: python
-    region: oregon
     plan: free
+
 
